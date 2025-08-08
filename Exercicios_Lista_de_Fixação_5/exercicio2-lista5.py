@@ -6,9 +6,12 @@
 # 2 - Carlos
 # 3 - Diana
 
-lista =  ["Ana", "Bruno", "Carlos","Diana"]
+# Lista com quatro nomes armazenados em sequência
+lista = ["Ana", "Bruno", "Carlos", "Diana"]
 
-contador = 0
+contador = 0  # Variável para contar a posição (índice) dos nomes na lista, começa em 0
+
+# Loop for que percorre cada elemento da lista, atribuindo cada elemento à variável 'nomes'
 for nomes in lista:
-    print (contador, nomes)
-    contador += 1
+    print(contador, nomes)  # Imprime o valor do contador (posição) e o nome atual
+    contador += 1  # Incrementa o contador em 1 para a próxima iteração, atualizando o índice
